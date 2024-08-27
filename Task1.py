@@ -7,7 +7,7 @@
 # by 100, but these centurial years are leap years if they are 
 # exactly divisible by 400.
 #Expected Outcome: If you test the year 1900, is should be False.
-# The year 2000 should be True. The year 2024 should be True.
+# The year 2000 should be True. The year 2024 should be True...
 
 year = int(input("Enter year: "))
 if year % 400 == 0 and year % 100 == 0:
